@@ -1,0 +1,149 @@
+.resume-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: #fcfcfc;
+  }
+  
+  .resume-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0033cc;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 110px;
+  }
+  
+  .resume-subheading {
+    font-size: 16px;
+    color: #0033cc;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: 110px;
+  }
+  
+  .schedule-call {
+    color: #0033cc;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .resume-plans {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .resume-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    width: 320px;
+    border: 2px solid #012283;
+    border-radius: 16px;
+    padding: 20px;
+    background: white;
+    transition: all 0.3s ease;
+  }
+  
+  .resume-card:hover {
+    transform: translateY(-5px);
+    border-color: #0033cc;
+  }
+  
+  .plan-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0033cc;
+    margin-bottom: 20px;
+  }
+  
+  .plan-price {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .duration {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .divider {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    flex-grow: 1;
+  }
+  
+  .plan-features li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .check-icon {
+    color: #00cc66;
+    margin-right: 8px;
+  }
+  
+  .plan-button {
+    background: #0033cc;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 200px;
+    border: none;
+    margin-top: 20px;
+  }
+  
+  .contact-card {
+    background: #0033cc;
+    color: white;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 900px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-text {
+    text-align: left;
+  }
+  
+  .doubt-text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .contact-heading {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .contact-button {
+    background: white;
+    color: #0033cc;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  

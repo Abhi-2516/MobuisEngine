@@ -1,0 +1,69 @@
+.about-section {
+    background: linear-gradient(to bottom, #000428, #004e92);
+    padding: 4rem 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem;
+    border: 2px solid white;
+    background-color: white;
+  }
+  
+  
+  .profile-content {
+    max-width: 600px;
+    text-align: left;
+    margin: 1rem;
+  }
+  
+  .name-button {
+    background-color: #ff5c33;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .name-button:hover {
+    background-color: #e64a19;
+  }
+  
+  .about-links {
+    margin-top: 3rem;
+  }
+  
+  .about-link {
+    display: block;
+    color: white;
+    margin: 1rem 0;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+  
+  .about-link:hover {
+    color: #b3e5fc;
+  }
+  

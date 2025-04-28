@@ -1,0 +1,48 @@
+/* app/styles/navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: linear-gradient(90deg, #a2d2ff,#0649E7, #022183);
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navbar-left img {
+    height: 50px;
+  }
+  
+  .navbar-center {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navbar-center a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .navbar-center a:hover {
+    color: #ffd166;
+  }
+  
+  .navbar-right button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #3a86ff;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .navbar-right button:hover {
+    background-color: #022183;
+    color: #000;
+  }
+  

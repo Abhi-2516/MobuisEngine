@@ -1,0 +1,49 @@
+.work-section {
+    padding: 4rem 1rem;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .work-title {
+    color: #0a3cff;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+  }
+  
+  .work-steps {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .work-step {
+    min-width: 200px;
+  }
+  
+  .step-number {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #0a3cff;
+    border-radius: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .step-line {
+    height: 2px;
+    width: 100%;
+    background-color: #0a3cff;
+    margin: 1rem 0;
+  }
+  
+  .step-title {
+    color: #0a3cff;
+    font-size: 1rem;
+  }
+  

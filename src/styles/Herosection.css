@@ -1,0 +1,90 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 180px;
+    background: linear-gradient(to right, #a2d2ff,#0649E7, #022183);
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .hero-title span {
+    color: #022183;
+  }
+  
+  .hero-subtitle {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #e0e0e0;
+  }
+  
+  .hero-button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: white;
+    color: #3b82f6;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .hero-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .hero-image {
+    position: relative;
+    max-width: 50%;
+  }
+  
+  .ebook-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .ebook-image {
+    width: 100%;
+    height: 350px;;
+    border: 2px solid #ccc;
+  }
+  
+  .icon-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .book-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .download-text {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+  

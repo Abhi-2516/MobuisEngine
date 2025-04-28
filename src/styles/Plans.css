@@ -1,0 +1,159 @@
+.plans-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .plans-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0033cc;
+    margin-bottom: 40px;
+  }
+  
+  .plans-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .plan-card {
+    width: 300px;
+    border: 2px solid #022183;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background: white;
+    transition: transform 0.3s ease;
+  }
+  
+  .plan-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .plan-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #0033cc;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    margin-left: 0%;
+    font-family: sans-serif;
+  }
+  
+  .plan-tag {
+    position: absolute;
+    top: 10px;
+    color: #002699;
+    right: 10px;
+    background: white;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: 1px solid #002699;
+    border-radius: 20px;
+  }
+  
+  .plan-price {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0033cc;
+    margin: 20px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  
+  .week {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .plan-features {
+    text-align: left;
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .check-icon {
+    color: #00cc66;
+    margin-right: 8px;
+  }
+  
+  .plan-button {
+    background: #0033cc;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 200px;
+    margin-bottom: 0px;
+  }
+  
+  .plan-button:hover {
+    background: #002699;
+  }
+  
+  /* Advance Plan */
+  .advance-plan {
+    background: #0033cc;
+    color: white;
+    border-radius: 16px;
+    margin-top: 50px;
+    padding: 40px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .advance-left {
+    flex: 2;
+  }
+  
+  .advance-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .advance-features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .advance-features li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .advance-right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .white-button {
+    background: white;
+    color: #0033cc;
+    font-weight: bold;
+  }
+  
+  .white-button:hover {
+    background: #e6e6ff;
+  }
+  
