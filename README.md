@@ -88,7 +88,7 @@ Follow these steps to run the project locally:
 
 ## 👨‍💻 Author
 
-- [Abhihsek Yadav](https://github.com/Abhi-2516)
+- [Abhishek Yadav](https://github.com/Abhi-2516)
 
 ---
 
