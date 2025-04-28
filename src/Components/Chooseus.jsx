@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Chooseus.css';
+import '../styles/chooseus.css';
 
 const ChooseUs = () => {
   return (
