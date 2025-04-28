@@ -11,16 +11,15 @@ Built using **React.js** and **CSS**, it mirrors a modern SaaS service landing p
 /src
   /components
     - Plans.jsx
-    - Plans.css
     - Resume.jsx
-    - Resume.css
     - Footer.jsx
-    - Footer.css
-  /assets
+  /images
     - logo.svg
     - linkedin.svg
   - App.jsx
   - index.js
+/styles
+-all css files
 /public
   - index.html
 - README.md
@@ -33,8 +32,6 @@ Built using **React.js** and **CSS**, it mirrors a modern SaaS service landing p
 
 - **React.js** (Vite / Create React App)
 - **CSS3** (custom styling, fully responsive)
-- **HTML5**
-- **Optional future integration**: Firebase / backend APIs
 
 ---
 
@@ -52,47 +49,20 @@ Follow these steps to run the project locally:
    ```bash
    npm install
    ```
-   or if you're using Yarn:
-   ```bash
-   yarn install
-   ```
 
 3. **Start the development server:**
    ```bash
    npm run dev
    ```
-   or for Create React App:
-   ```bash
-   npm start
-   ```
+
 
 4. **Open your browser:**
-   Navigate to `http://localhost:3000` (or `5173` if using Vite) to see the website running.
+   Navigate to `http://localhost:5173`
 
 ---
 
-## 🔨 Build Instructions (for production)
 
-To build the project for deployment:
 
-```bash
-npm run build
-```
-
-The output will be in the `/dist` folder (or `/build` if CRA).
-
-You can deploy this to:
-- **Vercel**
-- **Netlify**
-- **Firebase Hosting**
-- **GitHub Pages**
-- **Any traditional web hosting**
-
----
-
-## 📸 Preview
-
-> You can add screenshots or GIFs of your final website UI here!
 
 ---
 
